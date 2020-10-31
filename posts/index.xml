@@ -16,23 +16,5 @@
       <description>diff --git a/src2/game.js b/src2/game.js index 6d42342..06d7a8c 100644 --- a/src2/game.js +++ b/src2/game.js @@ -1,8 +1,27 @@ -window.onload = function() { +var game; +window.onload = function(){  var gameConfig = { width: 480, height: 640, backgroundColor: 0xff0000 } - var game = new Phaser.Game(gameConfig); + game = new Phaser.Game(gameConfig); + window.focus(); + resizeGame(); + window.addEventListener(&amp;#34;resize&amp;#34;,resizeGame); +} +// there&amp;#39;s a whole new function below this comment +function resizeGame() { + var canvas = document.</description>
     </item>
     
-    <item>
-      <title>My Second Post</title>
-      <link>https://jacobwme.github.io/posts/my-second-post/</link>
-      <pubDate>Sat, 31 Oct 2020 13:57:32 +0000</pubDate>
-      
-      <guid>https://jacobwme.github.io/posts/my-second-post/</guid>
-      <description>header 1  b list  b sublist    </description>
-    </item>
-    
-    <item>
-      <title>Jacob&#39;s first post</title>
-      <link>https://jacobwme.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 31 Oct 2020 11:30:39 +0000</pubDate>
-      
-      <guid>https://jacobwme.github.io/posts/my-first-post/</guid>
-      <description>header 1  a list  a sublist    </description>
-    </item>
-    
   </channel>
 </rss>
