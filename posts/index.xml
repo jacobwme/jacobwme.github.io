@@ -13,8 +13,7 @@
       <pubDate>Sun, 01 Nov 2020 12:52:15 +0000</pubDate>
       
       <guid>https://jacobwme.github.io/posts/second-commentit/</guid>
-      <description>The problem I was having was with the canvas tag overwriting the resizeGame() updates
-diff --git a/src2/index.html b/src2/index.html index f573db3..05818c8 100644 --- a/src2/index.html +++ b/src2/index.html @@ -21,6 +21,5 @@  &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;game.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; - &amp;lt;canvas width=&amp;#34;1024&amp;#34; height=&amp;#34;768&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt;  &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+      <description>&lt;p&gt;The problem I was having was with the canvas tag overwriting the resizeGame() updates&lt;/p&gt;</description>
     </item>
     
     <item>
