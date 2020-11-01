@@ -13,7 +13,9 @@
       <pubDate>Sun, 01 Nov 2020 12:52:15 +0000</pubDate>
       
       <guid>https://jacobwme.github.io/posts/second-commentit/</guid>
-      <description>&lt;p&gt;The problem I was having was with the canvas tag overwriting the resizeGame() updates&lt;/p&gt;</description>
+      <description>&lt;p&gt;The problem I was having was with the canvas tag overwriting the resizeGame() updates&lt;/p&gt;
+&lt;p&gt;What I didn&amp;rsquo;t understand after fixing the code was that there&amp;rsquo;s no &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element any longer&lt;/p&gt;
+&lt;p&gt;Where does the canvas element come from? From Phaser, that&amp;rsquo;s where from. I&amp;rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements&lt;/p&gt;</description>
     </item>
     
     <item>

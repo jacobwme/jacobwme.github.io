@@ -6,7 +6,9 @@
     
     <title>Second Commentit | Jacob&#39;s blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates">
+    <meta name="description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates
+What I didn&rsquo;t understand after fixing the code was that there&rsquo;s no &lt;canvas&gt; element any longer
+Where does the canvas element come from? From Phaser, that&rsquo;s where from. I&rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements">
     <meta name="generator" content="Hugo 0.77.0" />
     
     
@@ -28,23 +30,29 @@
     
     
     <meta property="og:title" content="Second Commentit" />
-<meta property="og:description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates" />
+<meta property="og:description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates
+What I didn&rsquo;t understand after fixing the code was that there&rsquo;s no &lt;canvas&gt; element any longer
+Where does the canvas element come from? From Phaser, that&rsquo;s where from. I&rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jacobwme.github.io/posts/second-commentit/" />
 <meta property="article:published_time" content="2020-11-01T12:52:15+00:00" />
 <meta property="article:modified_time" content="2020-11-01T12:52:15+00:00" />
 <meta itemprop="name" content="Second Commentit">
-<meta itemprop="description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates">
+<meta itemprop="description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates
+What I didn&rsquo;t understand after fixing the code was that there&rsquo;s no &lt;canvas&gt; element any longer
+Where does the canvas element come from? From Phaser, that&rsquo;s where from. I&rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements">
 <meta itemprop="datePublished" content="2020-11-01T12:52:15+00:00" />
 <meta itemprop="dateModified" content="2020-11-01T12:52:15+00:00" />
-<meta itemprop="wordCount" content="40">
+<meta itemprop="wordCount" content="95">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Second Commentit"/>
-<meta name="twitter:description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates"/>
+<meta name="twitter:description" content="The problem I was having was with the canvas tag overwriting the resizeGame() updates
+What I didn&rsquo;t understand after fixing the code was that there&rsquo;s no &lt;canvas&gt; element any longer
+Where does the canvas element come from? From Phaser, that&rsquo;s where from. I&rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements"/>
 
 	
   </head>
@@ -141,6 +149,8 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The problem I was having was with the canvas tag overwriting the resizeGame() updates</p>
+<p>What I didn&rsquo;t understand after fixing the code was that there&rsquo;s no <code>&lt;canvas&gt;</code> element any longer</p>
+<p>Where does the canvas element come from? From Phaser, that&rsquo;s where from. I&rsquo;m basing this on the HTML element having the same dimensions set out in Phaser. I would like to dig more into dynamic creation of DOM elements</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-diff" data-lang="diff">diff --git a/src2/index.html b/src2/index.html
 index f573db3..05818c8 100644
 <span style="color:#f92672">--- a/src2/index.html
