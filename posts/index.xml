@@ -6,14 +6,24 @@
     <description>Recent content in Posts on Jacob&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 31 Oct 2020 15:02:00 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 12:52:15 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Commentit</title>
-      <link>https://jacobwme.github.io/posts/first-commentit/</link>
-      <pubDate>Sat, 31 Oct 2020 15:02:00 +0000</pubDate>
+      <title>Second Commentit</title>
+      <link>https://jacobwme.github.io/posts/second-commentit/</link>
+      <pubDate>Sun, 01 Nov 2020 12:52:15 +0000</pubDate>
       
-      <guid>https://jacobwme.github.io/posts/first-commentit/</guid>
-      <description>diff --git a/src2/game.js b/src2/game.js index 6d42342..06d7a8c 100644 --- a/src2/game.js +++ b/src2/game.js @@ -1,8 +1,27 @@ -window.onload = function() { +var game; +window.onload = function(){  var gameConfig = { width: 480, height: 640, backgroundColor: 0xff0000 } - var game = new Phaser.Game(gameConfig); + game = new Phaser.Game(gameConfig); + window.focus(); + resizeGame(); + window.addEventListener(&amp;#34;resize&amp;#34;,resizeGame); +} +// there&amp;#39;s a whole new function below this comment +function resizeGame() { + var canvas = document.</description>
+      <guid>https://jacobwme.github.io/posts/second-commentit/</guid>
+      <description>The problem I was having was with the canvas tag overwriting the resizeGame() updates
+diff --git a/src2/index.html b/src2/index.html index f573db3..05818c8 100644 --- a/src2/index.html +++ b/src2/index.html @@ -21,6 +21,5 @@  &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;game.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; - &amp;lt;canvas width=&amp;#34;1024&amp;#34; height=&amp;#34;768&amp;#34;&amp;gt;&amp;lt;/canvas&amp;gt;  &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Jacob&#39;s first post</title>
+      <link>https://jacobwme.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 31 Oct 2020 11:30:39 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/my-first-post/</guid>
+      <description>header 1  a list  a sublist    </description>
     </item>
     
   </channel>

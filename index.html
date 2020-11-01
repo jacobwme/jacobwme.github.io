@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jacobwme.github.io/" />
-<meta property="og:updated_time" content="2020-10-31T15:02:00+00:00" />
+<meta property="og:updated_time" content="2020-11-01T12:52:15+00:00" />
 <meta itemprop="name" content="Jacob&#39;s blog">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -129,14 +129,39 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://jacobwme.github.io/posts/first-commentit/" class="color-inherit dim link">
-            First Commentit
+          <a href="https://jacobwme.github.io/posts/second-commentit/" class="color-inherit dim link">
+            Second Commentit
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          diff --git a/src2/game.js b/src2/game.js index 6d42342..06d7a8c 100644 --- a/src2/game.js +++ b/src2/game.js @@ -1,8 +1,27 @@ -window.onload = function() { +var game; +window.onload = function(){  var gameConfig = { width: 480, height: 640, backgroundColor: 0xff0000 } - var game = new Phaser.Game(gameConfig); + game = new Phaser.Game(gameConfig); + window.focus(); + resizeGame(); + window.addEventListener(&#34;resize&#34;,resizeGame); +} +// there&#39;s a whole new function below this comment +function resizeGame() { + var canvas = document.
+          The problem I was having was with the canvas tag overwriting the resizeGame() updates
+diff --git a/src2/index.html b/src2/index.html index f573db3..05818c8 100644 --- a/src2/index.html +++ b/src2/index.html @@ -21,6 +21,5 @@  &lt;script type=&#34;text/javascript&#34; src=&#34;game.js&#34;&gt;&lt;/script&gt; &lt;/head&gt; &lt;body&gt; - &lt;canvas width=&#34;1024&#34; height=&#34;768&#34;&gt;&lt;/canvas&gt;  &lt;/body&gt; &lt;/html&gt; 
         </div>
-          <a href="https://jacobwme.github.io/posts/first-commentit/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://jacobwme.github.io/posts/second-commentit/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://jacobwme.github.io/posts/my-first-post/" class="color-inherit dim link">
+            Jacob&#39;s first post
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          header 1  a list  a sublist    
+        </div>
+          <a href="https://jacobwme.github.io/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
