@@ -13,8 +13,7 @@
       <pubDate>Sun, 08 Nov 2020 19:44:04 +0000</pubDate>
       
       <guid>https://jacobwme.github.io/posts/fourth-commentit/</guid>
-      <description>An object of each of the Phaser.Scene classes registered in gameConfig.scene is instansiated and its methods run to update a part of the screen
-class playGame extends Phaser.Scene{ constructor() { super(&amp;#34;PlayGame&amp;#34;); } create() { console.log(&amp;#34;this is my awesome game&amp;#34;); } } class bootGame extends Phaser.Scene{ constructor() { super(&amp;#34;BootGame&amp;#34;); } create() { console.log(&amp;#34;game is booting...&amp;#34;); this.scene.start(&amp;#34;PlayGame&amp;#34;); } </description>
+      <description>&lt;p&gt;An object of each of the Phaser.Scene classes registered in &lt;code&gt;gameConfig.scene&lt;/code&gt; is instansiated and its methods run to update a part of the screen&lt;/p&gt;</description>
     </item>
     
     <item>
