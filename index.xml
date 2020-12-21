@@ -6,9 +6,18 @@
     <description>Recent content on Jacob&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Dec 2020 14:02:55 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 14:22:25 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ninth Commentit</title>
+      <title>Tenth Commit Blog</title>
+      <link>https://jacobwme.github.io/posts/tenth-commit-blog/</link>
+      <pubDate>Mon, 21 Dec 2020 14:22:25 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/tenth-commit-blog/</guid>
+      <description>&lt;p&gt;The scope of callbacks can be set, and an onComplete callback registered&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ninth commentit</title>
       <link>https://jacobwme.github.io/posts/ninth-commentit/</link>
       <pubDate>Mon, 21 Dec 2020 14:02:55 +0000</pubDate>
       
