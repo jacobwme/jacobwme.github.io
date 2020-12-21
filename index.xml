@@ -6,7 +6,18 @@
     <description>Recent content on Jacob&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Dec 2020 11:16:17 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 12:09:42 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seventh Commentit</title>
+      <link>https://jacobwme.github.io/posts/seventh-commentit/</link>
+      <pubDate>Mon, 21 Dec 2020 12:09:42 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/seventh-commentit/</guid>
+      <description>Rendering the game with as few sprites as possible
+Instead of throwing away the return value of add.sprite, assign it to tile
+var tile = this.add.sprite(tilePosition.x, tilePosition.y, &amp;#34;tiles&amp;#34;, 0); tile.visible = false; Tile is then is a reference that the sprite can be controlled by</description>
+    </item>
+    
     <item>
       <title>Sixth Commentit</title>
       <link>https://jacobwme.github.io/posts/sixth-commentit/</link>
