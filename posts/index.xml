@@ -13,8 +13,8 @@
       <pubDate>Mon, 21 Dec 2020 11:16:17 +0000</pubDate>
       
       <guid>https://jacobwme.github.io/posts/sixth-commentit/</guid>
-      <description>Sprite sheets vs images Sprite sheets have an index for images
---- a/src_001/game.js +++ b/src_001/game.js @@ -25,6 +25,10 @@ class bootGame extends Phaser.Scene{  } preload(){ this.load.image(&amp;#34;emptytile&amp;#34;, &amp;#34;assets/sprites/emptytile.png&amp;#34;); page 50 to page 54 diff --git a/src_001/game.js b/src_001/game.js index 24f89c1..f6b31f0 100755 --- a/src_001/game.js +++ b/src_001/game.js @@ -25,6 +25,10 @@ class bootGame extends Phaser.Scene{ } preload(){ this.load.image(&amp;#34;emptytile&amp;#34;, &amp;#34;assets/sprites/emptytile.png&amp;#34;); + this.load.spritesheet(&amp;#34;tiles&amp;#34;,&amp;#34;assets/sprites/tiles.png&amp;#34;, {^M + frameWidth: gameOptions.tileSize,^M + frameHeight: gameOptions.tileSize^M + });^M } </description>
+      <description>&lt;p&gt;Sprite sheets vs images&lt;/p&gt;
+&lt;p&gt;Sprite sheets have an index for images&lt;/p&gt;</description>
     </item>
     
     <item>
