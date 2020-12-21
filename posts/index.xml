@@ -13,9 +13,8 @@
       <pubDate>Mon, 21 Dec 2020 12:09:42 +0000</pubDate>
       
       <guid>https://jacobwme.github.io/posts/seventh-commentit/</guid>
-      <description>Rendering the game with as few sprites as possible
-Instead of throwing away the return value of add.sprite, assign it to tile
-var tile = this.add.sprite(tilePosition.x, tilePosition.y, &amp;#34;tiles&amp;#34;, 0); tile.visible = false; Tile is then is a reference that the sprite can be controlled by</description>
+      <description>&lt;p&gt;Rendering the game with as few sprites as possible&lt;/p&gt;
+&lt;p&gt;Instead of throwing away the return value of &lt;code&gt;add.sprite&lt;/code&gt;, assign it to tile&lt;/p&gt;</description>
     </item>
     
     <item>
