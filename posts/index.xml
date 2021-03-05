@@ -6,7 +6,45 @@
     <description>Recent content in Posts on Jacob&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Dec 2020 15:09:01 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 17:56:07 +0000</lastBuildDate><atom:link href="https://jacobwme.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Reminder</title>
+      <link>https://jacobwme.github.io/posts/hugo-reminder/</link>
+      <pubDate>Fri, 05 Mar 2021 17:56:07 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/hugo-reminder/</guid>
+      <description>Reminders on how to use Hugo
+hugo new posts/hugo-reminders Edit the post, set draft to false
+hugo -D -d /path/to/static/repo </description>
+    </item>
+    
+    <item>
+      <title>Procedural Map Generation Tutorial</title>
+      <link>https://jacobwme.github.io/posts/procedural-map-generation-tutorial/</link>
+      <pubDate>Mon, 28 Dec 2020 16:14:39 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/procedural-map-generation-tutorial/</guid>
+      <description> Where are the starter files located?  `GDquest / kickstarter-quest-3` on Github
+ https://github.com/GDQuest/godot-beginner-2d-platformer
+  </description>
+    </item>
+    
+    <item>
+      <title>GDScript Basics</title>
+      <link>https://jacobwme.github.io/posts/gdscript-basics/</link>
+      <pubDate>Mon, 28 Dec 2020 11:55:32 +0000</pubDate>
+      
+      <guid>https://jacobwme.github.io/posts/gdscript-basics/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+GDScript Basics
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Notes on the basic of GDScript, how it seems to me as a Python programmer&lt;/p&gt;
+&lt;p&gt;
+  The first step for me when I&amp;#39;m learning to program something new is to get to executing the code from the command line  &lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Eleventh Commit Blog</title>
       <link>https://jacobwme.github.io/posts/eleventh-commit-blog/</link>
