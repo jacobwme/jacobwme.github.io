@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo ">
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) ">
     <meta name="generator" content="Hugo 0.77.0" />
     
     
@@ -32,7 +34,9 @@ hugo -D -d /path/to/static/repo ">
     <meta property="og:title" content="Hugo Reminder" />
 <meta property="og:description" content="Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo " />
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jacobwme.github.io/posts/hugo-reminder/" />
 <meta property="article:published_time" content="2021-03-05T17:56:07+00:00" />
@@ -40,10 +44,12 @@ hugo -D -d /path/to/static/repo " />
 <meta itemprop="name" content="Hugo Reminder">
 <meta itemprop="description" content="Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo ">
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) ">
 <meta itemprop="datePublished" content="2021-03-05T17:56:07+00:00" />
 <meta itemprop="dateModified" content="2021-03-05T17:56:07+00:00" />
-<meta itemprop="wordCount" content="20">
+<meta itemprop="wordCount" content="45">
 
 
 
@@ -52,7 +58,9 @@ hugo -D -d /path/to/static/repo ">
 <meta name="twitter:title" content="Hugo Reminder"/>
 <meta name="twitter:description" content="Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo "/>
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) "/>
 
 	
   </head>
@@ -153,6 +161,13 @@ hugo -D -d /path/to/static/repo "/>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new posts/hugo-reminders
 </code></pre></div><p>Edit the post, set draft to false</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo -D -d /path/to/static/repo
+</code></pre></div><p>Add the files in Git</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pushd /path/to/static/repo
+git add .
+git commit -a -m <span style="color:#e6db74">&#39;New blog post&#39;</span>
+git push
+</code></pre></div><p>Rinse and repeat</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">popd <span style="color:#75715e"># :)</span>
 </code></pre></div><ul class="pa0">
   
 </ul>

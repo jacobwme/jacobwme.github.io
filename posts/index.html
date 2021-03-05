@@ -110,7 +110,9 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo 
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) 
     </div>
   </div>
 </div>

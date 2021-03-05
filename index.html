@@ -136,7 +136,9 @@
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo 
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &#39;New blog post&#39; git push Rinse and repeat
+popd # :) 
         </div>
           <a href="https://jacobwme.github.io/posts/hugo-reminder/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         

@@ -15,7 +15,9 @@
       <guid>https://jacobwme.github.io/posts/hugo-reminder/</guid>
       <description>Reminders on how to use Hugo
 hugo new posts/hugo-reminders Edit the post, set draft to false
-hugo -D -d /path/to/static/repo </description>
+hugo -D -d /path/to/static/repo Add the files in Git
+pushd /path/to/static/repo git add . git commit -a -m &amp;#39;New blog post&amp;#39; git push Rinse and repeat
+popd # :) </description>
     </item>
     
     <item>
